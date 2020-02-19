@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6318ECAA23FDAFB100B5F193 /* CARQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318ECA923FDAFB100B5F193 /* CARQuake.m */; };
-		6318ECAB23FDAFC000B5F193 /* CARQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318ECA923FDAFB100B5F193 /* CARQuake.m */; };
+		6318ECAD23FDB3C200B5F193 /* CARQuakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318ECAC23FDB3C200B5F193 /* CARQuakeTests.m */; };
 		638ABC7B23FDA51900363D96 /* CARFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ABC7A23FDA51900363D96 /* CARFirstResponder.m */; };
-		638ABC7C23FDA51900363D96 /* CARFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ABC7A23FDA51900363D96 /* CARFirstResponder.m */; };
 		BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8123FDA09F00A39B21 /* AppDelegate.m */; };
 		BDFC8F8523FDA09F00A39B21 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8423FDA09F00A39B21 /* SceneDelegate.m */; };
 		BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8723FDA09F00A39B21 /* ViewController.m */; };
@@ -44,6 +43,7 @@
 /* Begin PBXFileReference section */
 		6318ECA823FDAFB100B5F193 /* CARQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARQuake.h; sourceTree = "<group>"; };
 		6318ECA923FDAFB100B5F193 /* CARQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARQuake.m; sourceTree = "<group>"; };
+		6318ECAC23FDB3C200B5F193 /* CARQuakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARQuakeTests.m; sourceTree = "<group>"; };
 		638ABC7923FDA51900363D96 /* CARFirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARFirstResponder.h; sourceTree = "<group>"; };
 		638ABC7A23FDA51900363D96 /* CARFirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARFirstResponder.m; sourceTree = "<group>"; };
 		BDFC8F7D23FDA09F00A39B21 /* Quakes-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quakes-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +176,7 @@
 			children = (
 				BDFC8F9C23FDA0A100A39B21 /* Quakes_ObjcTests.m */,
 				BDFC8F9E23FDA0A100A39B21 /* Info.plist */,
+				6318ECAC23FDB3C200B5F193 /* CARQuakeTests.m */,
 			);
 			path = "Quakes-ObjcTests";
 			sourceTree = "<group>";
@@ -323,9 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6318ECAB23FDAFC000B5F193 /* CARQuake.m in Sources */,
-				638ABC7C23FDA51900363D96 /* CARFirstResponder.m in Sources */,
 				BDFC8FB423FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
+				6318ECAD23FDB3C200B5F193 /* CARQuakeTests.m in Sources */,
 				BDFC8FB623FDA12B00A39B21 /* LSILog.m in Sources */,
 				BDFC8F9D23FDA0A100A39B21 /* Quakes_ObjcTests.m in Sources */,
 				BDFC8FB823FDA12B00A39B21 /* LSIErrors.m in Sources */,
@@ -366,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -406,6 +407,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -458,6 +461,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -478,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "Quakes-Objc/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "Quakes-Objc/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
