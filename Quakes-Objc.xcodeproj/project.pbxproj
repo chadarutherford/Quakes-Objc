@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6318ECAA23FDAFB100B5F193 /* CARQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318ECA923FDAFB100B5F193 /* CARQuake.m */; };
+		6318ECAB23FDAFC000B5F193 /* CARQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318ECA923FDAFB100B5F193 /* CARQuake.m */; };
 		638ABC7B23FDA51900363D96 /* CARFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ABC7A23FDA51900363D96 /* CARFirstResponder.m */; };
 		638ABC7C23FDA51900363D96 /* CARFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ABC7A23FDA51900363D96 /* CARFirstResponder.m */; };
 		BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8123FDA09F00A39B21 /* AppDelegate.m */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6318ECA823FDAFB100B5F193 /* CARQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARQuake.h; sourceTree = "<group>"; };
+		6318ECA923FDAFB100B5F193 /* CARQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARQuake.m; sourceTree = "<group>"; };
 		638ABC7923FDA51900363D96 /* CARFirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARFirstResponder.h; sourceTree = "<group>"; };
 		638ABC7A23FDA51900363D96 /* CARFirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARFirstResponder.m; sourceTree = "<group>"; };
 		BDFC8F7D23FDA09F00A39B21 /* Quakes-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quakes-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +136,8 @@
 			children = (
 				638ABC7923FDA51900363D96 /* CARFirstResponder.h */,
 				638ABC7A23FDA51900363D96 /* CARFirstResponder.m */,
+				6318ECA823FDAFB100B5F193 /* CARQuake.h */,
+				6318ECA923FDAFB100B5F193 /* CARQuake.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 				BDFC8FB323FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB523FDA12B00A39B21 /* LSILog.m in Sources */,
 				BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */,
+				6318ECAA23FDAFB100B5F193 /* CARQuake.m in Sources */,
 				BDFC8FB723FDA12B00A39B21 /* LSIErrors.m in Sources */,
 				BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */,
 				BDFC8F9323FDA0A100A39B21 /* main.m in Sources */,
@@ -316,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6318ECAB23FDAFC000B5F193 /* CARQuake.m in Sources */,
 				638ABC7C23FDA51900363D96 /* CARFirstResponder.m in Sources */,
 				BDFC8FB423FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB623FDA12B00A39B21 /* LSILog.m in Sources */,

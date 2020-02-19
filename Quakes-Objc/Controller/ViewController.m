@@ -18,12 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Hey Quakes!");
     CARFirstResponder *responder = [[CARFirstResponder alloc] init];
-    NSLog(@"responder: %@", responder);
-    NSLog(@"name: %@", responder.name);
-    responder.name = @"John";
-    NSLog(@"name: %@", responder.name);
 }
 
 
